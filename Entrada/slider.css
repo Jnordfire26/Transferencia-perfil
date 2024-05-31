@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.perfil {
+
+	border: 5px solid #000; 
+	border-radius: 50%; 
+	padding: 5px; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+	position: absolute;
+	left: 550px;
+	top: 180px;
+	width: 20%;
+	z-index: 1; 
+	border: 5px solid #000; /* Borde de 5 píxeles, color negro */
+	border-radius: 50%; /* Hacer la imagen circular */
+	padding: 5px; /* Espacio interno entre el borde y la imagen */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para darle más efecto */
+
+  
+  }
+
+#particles-js{
+	background: url(imagenes/f-1.jpg);
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+	width: 100%;
+	opacity: 80%;
+	transition: opacity 5s; 
+	
+	
+}
+
+.ancho-letras{
+	top: 200px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+.letras-slider{
+	width: 80%;
+	margin: auto;
+}
+.letras-slider h1{
+	color: #ffffff;
+	font-size: 70px;
+	position: relative;
+	top: 300px;
+	text-shadow: 1px 1px black;
+	z-index: 1;
+	text-transform: uppercase;
+	
+
+}
+
+.letras-slider p{
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 50px;
+}
